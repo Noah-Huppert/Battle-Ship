@@ -3,53 +3,148 @@ package com.noahhuppert.battleship.models;
 import java.util.ArrayList;
 
 /**
- * Created by block7 on 12/2/14.
+ * Created by Noah Huppert on 12/2/2014.
  */
 public class Grid {
-    private ArrayList<GridBox> gridBoxes;
+    public static final int DEFAULT_GRID_SIZE_X = 10;
+    public static final int DEFAULT_GRID_SIZE_Y = 10;
 
-    public Grid(){
-        gridBoxes = new ArrayList<GridBox>();
+    private ArrayList<ArrayList<GridSquare>> gridSquares;
+
+    private int sizeX;
+    private int sizeY;
+
+    public Grid(int sizeX, int sizeY){
+        this.sizeX = sizeX;
+        this.sizeY = sizeY;
+        reset();
     }
 
-    public Grid(ArrayList<GridBox> gridBoxes){
-        this.gridBoxes = gridBoxes;
-    }
+    /* Actions */
+    public void reset(){
+        setGridSquares(new ArrayList<ArrayList<GridSquare>>());
 
-    public Grid(int size){
-        gridBoxes = new ArrayList<GridBox>();
+        for(int x = 0; x < sizeX; x++){
+            ArrayList<GridSquare> gridSquaresY = new ArrayList<GridSquare>();
 
-        for(int i = 0; i < size; i++){
-            for(int ii = 0; ii < size; ii++)
-            addGridBox(new GridBox(i, ii));
+            for(int y = 0; y < sizeY; y++){
+                gridSquaresY.add(y, new GridSquare());
+            }
+            gridSquares.add(x, gridSquaresY);
         }
     }
 
-    /* Getters */
-    public ArrayList<GridBox> getGridBoxes(){
-        return gridBoxes;
-    }
+    private String drawDividingRow(boolean letters){
+        String out = "";
 
-    public GridBox getGridBoxByPosition(Vector2 position){
-        for(GridBox gridBox : getGridBoxes()){
-            if(gridBox.getPosition().equals(position)){
-                return gridBox;
+        for(int y = 0; y < getSizeY(); y++) {
+            if (letters) {
+                out += "  ";
+
+                if (y > 25) {
+                    out += (char)('A' + (y - 25));
+                } else {
+                    out += (char)('A' + y);
+                }
+
+                out += " ";
+            } else {
+                out += " ---";
+            }
+
+            if(y == getSizeY(true)){
+                out += "\n";
             }
         }
 
-        return null;
+        return out;
     }
 
-    public GridBox getGridBoxByPosition(int x, int y){
-        return getGridBoxByPosition(new Vector2(x, y));
+    private String drawDividingRow(){
+        return drawDividingRow(false);
+    }
+
+    @Override
+    public String toString(){
+        String out = "";
+
+        out += "   " + drawDividingRow(true);
+        out += "   " + drawDividingRow();
+
+        for(int x = 0; x <= getSizeX(true); x++){
+            for(int y = 0; y <= getSizeY(true); y++){
+                if(y == 0){
+                    out += (x + 1);
+
+                    if(x + 1 >= 10){
+                        out += " ";
+                    } else{
+                        out += "  ";
+                    }
+
+                    out += "| ";
+                }
+
+                out += getGridSquareByXY(x, y) + " | ";
+
+                if(y == getSizeY(true)){
+                    out += "\n";
+                }
+            }
+            out += "   " + drawDividingRow();
+        }
+
+
+        return out;
+    }
+
+    /* Getters */
+    public ArrayList<ArrayList<GridSquare>> getGridSquares() {
+        return gridSquares;
+    }
+
+    public GridSquare getGridSquareByXY(int x, int y){
+        return getGridSquares().get(x).get(y);
+    }
+
+    public ArrayList<GridSquare> getGridSquareByX(int x){
+        return getGridSquares().get(x);
+    }
+
+    public int getSizeX() {
+        return sizeX;
+    }
+
+    public int getSizeX(boolean arrayFriendly){
+        if(arrayFriendly){
+            return getSizeX() - 1;
+        }
+
+        return getSizeX();
+    }
+
+    public int getSizeY() {
+        return sizeY;
+    }
+
+    public int getSizeY(boolean arrayFriendly){
+        if(arrayFriendly){
+            return getSizeY() - 1;
+        }
+
+        return getSizeY();
     }
 
     /* Setters */
-    public void setGridBoxes(ArrayList<GridBox> gridBoxes){
-        this.gridBoxes = gridBoxes;
+    public void setGridSquares(ArrayList<ArrayList<GridSquare>> gridSquares) {
+        this.gridSquares = gridSquares;
     }
 
-    public void addGridBox(GridBox gridBox){
-        getGridBoxes().add(gridBox);
+    public void setSizeX(int sizeX) {
+        this.sizeX = sizeX;
+    }
+
+    public void setSizeY(int sizeY) {
+        this.sizeY = sizeY;
     }
 }

@@ -1,43 +1,33 @@
 package com.noahhuppert.battleship.models;
 
-import java.util.ArrayList;
-
 /**
- * Created by block7 on 12/2/14.
+ * Created by Noah Huppert on 12/2/2014.
  */
 public class Ship {
-    private String name;
-    private ArrayList<GridBox> gridBoxes;
+    private int size;
 
-    public Ship(String name){
-        this.name = name;
-        gridBoxes = new ArrayList<GridBox>();
+    public Ship(int size){
+        this.size = size;
     }
 
     /* Actions */
-    public boolean isIn(GridBox gridBox){
-        return getGridBoxes().contains(gridBox);
+
+    /**
+     * Takes one size off the ship
+     * @return True if the ship is sunk and false if it is not
+     */
+    public boolean hit(){
+        setSize(getSize() - 1);
+        return getSize() <= 0;
     }
 
     /* Getters */
-    public String getName() {
-        return name;
-    }
-
-    public ArrayList<GridBox> getGridBoxes() {
-        return gridBoxes;
-    }
-
-    public GridBox getGridBoxByIndex(int index){
-        return getGridBoxes().get(index);
+    public int getSize(){
+        return size;
     }
 
     /* Setters */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setGridBoxes(ArrayList<GridBox> gridBoxes) {
-        this.gridBoxes = gridBoxes;
+    public void setSize(int size){
+        this.size = size;
     }
 }
