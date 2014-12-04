@@ -17,6 +17,7 @@
         </constraints>
         <properties>
           <editable value="false"/>
+          <enabled value="true"/>
         </properties>
       </component>
       <component id="9df7c" class="javax.swing.JTextPane" binding="guessTextPane">

@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="191368ae-6744-4434-8d21-7e2deb1b46f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/BattleShipMain.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/BattleShipMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/Grid.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/Grid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/GridSquare.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/GridSquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/HitStatus.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/HitStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/helpers/Log.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/helpers/Log.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/views/MainView$1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/views/MainView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/views/MainView$2.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/views/MainView$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/views/MainView.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/views/MainView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/players/Player.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/players/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/Ship.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/Ship.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/players/UserInputPlayer.class" afterPath="$PROJECT_DIR$/build/classes/main/com/noahhuppert/battleship/models/players/UserInputPlayer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/BattleShipMain.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/BattleShipMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BattleShip.iws" />
@@ -42,14 +36,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BattleShipMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/BattleShipMain.java">
+      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14340344" vertical-offset="0" max-vertical-offset="645">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1200">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#791#931#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5162524" vertical-offset="1005" max-vertical-offset="2070">
+              <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -262,15 +267,15 @@
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/HitStatus.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Hit.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Ship.java" />
-        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Player.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/players/UserInputPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/helpers/Log.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/players/Player.java" />
-        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/GridSquare.java" />
-        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/BattleShipMain.java" />
+        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java" />
+        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form" />
+        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java" />
       </list>
     </option>
   </component>
@@ -309,6 +314,82 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="BattleShip" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainView" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -599,7 +680,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -613,6 +696,8 @@
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,7 +706,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#791#931#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,6 +719,8 @@
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -639,7 +729,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#791#931#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,6 +742,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -671,6 +766,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,6 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1598">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -688,6 +786,8 @@
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -728,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.989726" vertical-offset="867" max-vertical-offset="2346">
-          <caret line="87" column="55" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40805224" vertical-offset="152" max-vertical-offset="1309">
@@ -751,6 +844,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9914383" vertical-offset="84" max-vertical-offset="1003">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/BattleShipMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30946603" vertical-offset="0" max-vertical-offset="824">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1200">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="e#791#931#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,21 +876,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26966292" vertical-offset="399" max-vertical-offset="1200">
-          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.5162524" vertical-offset="1005" max-vertical-offset="2070">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/BattleShipMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14340344" vertical-offset="0" max-vertical-offset="645">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

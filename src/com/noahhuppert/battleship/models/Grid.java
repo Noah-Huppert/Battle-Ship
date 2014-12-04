@@ -35,11 +35,11 @@ public class Grid {
     }
 
     private String drawDividingRow(boolean letters){
-        String out = "";
+        String out = "  ";
 
         for(int y = 0; y < getSizeY(); y++) {
             if (letters) {
-                out += "  ";
+                out += " ";
 
                 if (y > 25) {
                     out += (char)('A' + (y - 25));
@@ -49,7 +49,7 @@ public class Grid {
 
                 out += " ";
             } else {
-                out += " ---";
+                out += " - ";
             }
 
             if(y == getSizeY(true)){
@@ -79,13 +79,13 @@ public class Grid {
                     if(x + 1 >= 10){
                         out += " ";
                     } else{
-                        out += "  ";
+                        out += "   ";
                     }
 
                     out += "| ";
                 }
 
-                out += getGridSquareByXY(x, y) + " | ";
+                out += getGridSquareByXY(x, y) + "  | ";
 
                 if(y == getSizeY(true)){
                     out += "\n";

@@ -26,7 +26,7 @@ public class MainView extends JFrame{
     public MainView() {
         helpButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                BattleShipMain.printHelp();
+                Log.i("Print help");
             }
         });
 

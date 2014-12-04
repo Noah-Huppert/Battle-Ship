@@ -16,22 +16,5 @@ public class BattleShipMain{
 
     public static void main(String args[]){
         MainView mainView = new MainView();
-
-        //mainView.getGuessTextPane().setText(humanPlayer.getGuessGrid().toString());
-        //mainView.getSelfTextPane().setText(humanPlayer.getSelfGrid().toString());
-    }
-
-    public static void printHelp(){
-        String out = "";
-
-        out += "Battle Ship help\n";
-        out += "    self.guessGrid - Shows your guess grid\n";
-        out += "    self.selfGrid  - Shows your own grid\n";
-        out += "    cpu.guessGrid  - Shows the computers guess grid\n";
-        out += "    self.selfGrid  - Shows the cpu's grid\n";
-        out += "    help           - Shows this help text\n\n";
-        out += "Entering nothing will allow you to act for your turn";
-
-        Log.noTag(out);
     }
 }
