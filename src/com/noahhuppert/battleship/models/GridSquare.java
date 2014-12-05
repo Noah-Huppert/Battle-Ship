@@ -1,5 +1,7 @@
 package com.noahhuppert.battleship.models;
 
+import java.util.ArrayList;
+
 /**
  * Created by Noah Huppert on 12/2/2014.
  */
@@ -31,13 +33,13 @@ public class GridSquare {
     @Override
     public String toString(){
         if(getHitStatus() == HitStatus.HIT){
-            return "X";
+            return "x";
         } else if(getHitStatus() == HitStatus.MISS) {
-            return "O";
+            return "o";
         } else if(getHitStatus() == HitStatus.NONE && getShip() != null) {
-            return "B";
+            return "b";
         } else {
-            return "\b";
+            return "~";
         }
     }
 

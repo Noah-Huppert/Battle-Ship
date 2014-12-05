@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Grid {
     public static final int DEFAULT_GRID_SIZE_X = 10;
     public static final int DEFAULT_GRID_SIZE_Y = 10;
+    public static final String DEFAULT_SPACER = "   ";
 
     private ArrayList<ArrayList<GridSquare>> gridSquares;
 
@@ -21,6 +22,17 @@ public class Grid {
     }
 
     /* Actions */
+    public static ArrayList<Integer> getXYFromString(String string){
+        int row = Integer.parseInt(string.substring(1)) - 1;
+        int column = Character.toUpperCase(string.charAt(0)) - 'A';
+
+        ArrayList<Integer> out = new ArrayList<Integer>();
+        out.add(row);
+        out.add(column);
+
+        return out;
+    }
+
     public void reset(){
         setGridSquares(new ArrayList<ArrayList<GridSquare>>());
 
@@ -34,41 +46,65 @@ public class Grid {
         }
     }
 
-    private String drawDividingRow(boolean letters){
-        String out = "  ";
+    private String drawDividingRow(){
+        String out = "";
+
+        for(int y = 0; y < getSizeY(); y++){
+            out += (char)('A' + y);
+            out += DEFAULT_SPACER;
+        }
+
+        out += "\n";
+        return out;
+        /*String out = "    ";
 
         for(int y = 0; y < getSizeY(); y++) {
-            if (letters) {
-                out += " ";
+            out += " ";
 
-                if (y > 25) {
-                    out += (char)('A' + (y - 25));
-                } else {
-                    out += (char)('A' + y);
-                }
-
-                out += " ";
+            if (y > 25) {
+                out += (char)('A' + (y - 25));
             } else {
-                out += " - ";
+                out += (char)('A' + y);
             }
+
+            out += "  ";
 
             if(y == getSizeY(true)){
                 out += "\n";
             }
         }
 
-        return out;
-    }
-
-    private String drawDividingRow(){
-        return drawDividingRow(false);
+        return out;*/
     }
 
     @Override
     public String toString(){
         String out = "";
 
-        out += "   " + drawDividingRow(true);
+        out += "       " + drawDividingRow();
+
+        for(int x = 0; x <= getSizeX(true); x++){
+            for(int y = 0; y <= getSizeY(true); y++){
+                if(y == 0){
+                    out += x + 1;
+
+                    if(x < 9){
+                        out += "  ";
+                    }
+
+                    out += DEFAULT_SPACER;
+                }
+
+                out += getGridSquareByXY(x, y);
+                out += DEFAULT_SPACER;
+            }
+
+            out += "\n";
+        }
+
+        return out;
+        /*String out = "";
+
         out += "   " + drawDividingRow();
 
         for(int x = 0; x <= getSizeX(true); x++){
@@ -82,20 +118,19 @@ public class Grid {
                         out += "   ";
                     }
 
-                    out += "| ";
+                    out += "   ";
                 }
 
-                out += getGridSquareByXY(x, y) + "  | ";
+                out += getGridSquareByXY(x, y) + "   ";
 
                 if(y == getSizeY(true)){
                     out += "\n";
                 }
             }
-            out += "   " + drawDividingRow();
         }
 
 
-        return out;
+        return out;*/
     }
 
     /* Getters */

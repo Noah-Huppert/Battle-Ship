@@ -33,28 +33,23 @@ public class Player {
         act(opponent, choose());
     }
 
-    public void act(Player opponent, String choice){
+    public String act(Player opponent, String choice){
         if(choice.length() < 2 && choice.length() > 3){
             Log.e("Player.act", "The player choice must contain a row in the form of a letter and a column in the form of a number");
             Log.d("Player.act", "Player choice invalid. Player choice => " + choice);
-            return;
+            return "Error: Invalid Choice";
         }
 
-        int column = 'A' - Character.toUpperCase(choice.charAt(0));
+        int column = Character.toUpperCase(choice.charAt(0)) - 'A';
 
-        String rowString = "";
-        if(choice.length() == 2){
-            rowString = "" + choice.charAt(1);
-        } else if(choice.length() == 3){
-            rowString = "" + choice.charAt(1) + choice.charAt(2);
-        }
+        int row = Integer.parseInt(choice.substring(1)) - 1;
 
-        int row = Integer.parseInt(rowString) - 1;
+        //TODO Conver to use Grid.getXYByString
 
         HitStatus hitStatus = opponent.getSelfGrid().getGridSquareByXY(row, column).pick();
         getGuessGrid().getGridSquareByXY(row, column).setHitStatus(hitStatus);
 
-        Log.i(hitStatus);
+        return hitStatus.toString();
     }
 
     /* Getters */

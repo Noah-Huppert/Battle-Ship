@@ -11,11 +11,6 @@ public class Ship {
     }
 
     /* Actions */
-
-    /**
-     * Takes one size off the ship
-     * @return True if the ship is sunk and false if it is not
-     */
     public boolean hit(){
         setSize(getSize() - 1);
         return getSize() <= 0;
