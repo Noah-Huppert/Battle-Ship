@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="191368ae-6744-4434-8d21-7e2deb1b46f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/GridSquare.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/GridSquare.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/players/Player.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/players/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Ship.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Ship.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BattleShip.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +32,7 @@
       <file leaf-file-name="Grid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="2655">
+            <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="2655">
               <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
                 <element signature="e#3373#3374#0" expanded="true" />
@@ -46,47 +41,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridSquare.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GridSquare.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/GridSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.6309751" vertical-offset="60" max-vertical-offset="975">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Ship.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65583175" vertical-offset="872" max-vertical-offset="3030">
-              <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-              <folding>
-                <element signature="e#5858#5859#0" expanded="true" />
-                <element signature="e#5892#5893#0" expanded="true" />
-                <element signature="e#5932#5933#0" expanded="true" />
-                <element signature="e#5969#5970#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainView.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -308,8 +271,8 @@
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/players/Player.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.form" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Ship.java" />
-        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/GridSquare.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java" />
+        <option value="$PROJECT_DIR$/src/com/noahhuppert/battleship/models/GridSquare.java" />
       </list>
     </option>
   </component>
@@ -1060,6 +1023,27 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31166348" vertical-offset="872" max-vertical-offset="3030">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+          <folding>
+            <element signature="e#5858#5859#0" expanded="true" />
+            <element signature="e#5892#5893#0" expanded="true" />
+            <element signature="e#5932#5933#0" expanded="true" />
+            <element signature="e#5969#5970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40152964" vertical-offset="0" max-vertical-offset="523">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="2655">
@@ -1072,31 +1056,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/GridSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.6309751" vertical-offset="60" max-vertical-offset="975">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/models/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/battleship/views/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65583175" vertical-offset="872" max-vertical-offset="3030">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-          <folding>
-            <element signature="e#5858#5859#0" expanded="true" />
-            <element signature="e#5892#5893#0" expanded="true" />
-            <element signature="e#5932#5933#0" expanded="true" />
-            <element signature="e#5969#5970#0" expanded="true" />
           </folding>
         </state>
       </provider>

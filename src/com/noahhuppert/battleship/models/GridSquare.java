@@ -24,6 +24,7 @@ public class GridSquare {
 
             if(shipDestroyed) {
                 setShip(null);
+                Log.i("Ship sunk!");
             }
 
             setHitStatus(HitStatus.HIT);
