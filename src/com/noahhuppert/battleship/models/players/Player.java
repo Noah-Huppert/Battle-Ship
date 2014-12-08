@@ -4,6 +4,8 @@ import com.noahhuppert.battleship.helpers.Log;
 import com.noahhuppert.battleship.models.Grid;
 import com.noahhuppert.battleship.models.HitStatus;
 
+import java.util.ArrayList;
+
 /**
  * Created by Noah Huppert on 12/2/2014.
  */
@@ -40,14 +42,10 @@ public class Player {
             return "Error: Invalid Choice";
         }
 
-        int column = Character.toUpperCase(choice.charAt(0)) - 'A';
+        ArrayList<Integer> quards = Grid.getXYFromString(choice);
 
-        int row = Integer.parseInt(choice.substring(1)) - 1;
-
-        //TODO Conver to use Grid.getXYByString
-
-        HitStatus hitStatus = opponent.getSelfGrid().getGridSquareByXY(row, column).pick();
-        getGuessGrid().getGridSquareByXY(row, column).setHitStatus(hitStatus);
+        HitStatus hitStatus = opponent.getSelfGrid().getGridSquareByXY(quards.get(0), quards.get(1)).pick();
+        getGuessGrid().getGridSquareByXY(quards.get(0), quards.get(1)).setHitStatus(hitStatus);
 
         return hitStatus.toString();
     }

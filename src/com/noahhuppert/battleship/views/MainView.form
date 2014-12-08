@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.noahhuppert.battleship.views.MainView">
-  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="634" height="431"/>
@@ -56,7 +56,7 @@
       </hspacer>
       <component id="7fefe" class="javax.swing.JLabel" binding="messageLabel">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Pick a square to attack"/>
@@ -64,27 +64,11 @@
       </component>
       <component id="33b5f" class="javax.swing.JTextField" binding="inputField">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="250" height="20"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="6f083" class="javax.swing.JTextField" binding="placeShipsInputField">
-        <constraints>
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="250" height="20"/>
           </grid>
         </constraints>
         <properties/>
-      </component>
-      <component id="1a2c4" class="javax.swing.JLabel" binding="placeShipsMessageLabel">
-        <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Placing ships.."/>
-        </properties>
       </component>
     </children>
   </grid>

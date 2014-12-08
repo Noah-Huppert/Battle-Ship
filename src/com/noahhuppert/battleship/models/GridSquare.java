@@ -1,5 +1,7 @@
 package com.noahhuppert.battleship.models;
 
+import com.noahhuppert.battleship.helpers.Log;
+
 import java.util.ArrayList;
 
 /**
@@ -7,7 +9,7 @@ import java.util.ArrayList;
  */
 public class GridSquare {
     private HitStatus hitStatus;
-    private Ship ship;
+    private Ship ship = null;
 
     public GridSquare(){
         this.hitStatus = HitStatus.NONE;
@@ -19,7 +21,8 @@ public class GridSquare {
         if(getShip() != null){
             boolean shipDestroyed = getShip().hit();
 
-            if(shipDestroyed){
+
+            if(shipDestroyed) {
                 setShip(null);
             }
 

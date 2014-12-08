@@ -1,5 +1,7 @@
 package com.noahhuppert.battleship.models;
 
+import com.noahhuppert.battleship.helpers.Log;
+
 /**
  * Created by Noah Huppert on 12/2/2014.
  */
@@ -13,7 +15,7 @@ public class Ship {
     /* Actions */
     public boolean hit(){
         setSize(getSize() - 1);
-        return getSize() <= 0;
+        return (getSize() <= 0);
     }
 
     /* Getters */
